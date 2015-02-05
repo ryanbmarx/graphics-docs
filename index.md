@@ -1,20 +1,22 @@
 #How to start a project
-## Get assignment, collect information
+## Get assignment, collect information, brainstorm until you have an idea
 ## Decide what format it should be
-* Options: 
-+ Static: Reserved for simple charts (1-2 per image). Let's not forget galleries
-+ HTML story: Better for items with lots of type or interactive needs
-+ Tarbell app: Very high bar. Should have tons of custom needs and/or a long shelf life. Requires P2P story link asset.
-* Discuss: The skedmaker will make a best guess, but that's all it is. Gather some data. Learn something. If you think an alternate format is needed, that says so.
-* Digital first: This should be thought through before the print graphic. 
+* *Digital first:* This should be thought through before the print graphic. 
+* Your primary options
+  + *Static:* Reserved for simple charts (1-2 per image). When a chart has little value standing alone, an embeddable static graphic is a good choice.
+  + *Graphics gallery:* This can be very effective in situations where the charting is copious but not complex. Like static graphics, galleries are embeddable within stories. Polls are very successful in this format.
+  + *HTML story:* If the idea is text-heavy, more complex than a simple chart and/or has interactive opportunities choose an HTML story.
+  + *Tarbell app:* With greater capabilities within NGUX, tarbell projects have a very high bar. THe project should require tons of custom elemtns and/or have a long shelf life. All Tarbell apps also require P2P story link assets and a URL redirect.
+* The skedmaker will make a best guess at a format on the daily graphics sked, but it's usually only a guess. Gather some data. Learn something. If you think an alternate format is better, then say so. Make sure there isn't a bigger plan.
+* *Digital first:* This should be thought through before the print graphic. 
 
 ## So you've decided to make static graphics.
 * Use the .AI template. This is the 16x9 graphic.
 * Be mindful of the inner margin if making a gallery.
-* Duplicating the artboard in a single AI file makes it easier to output (and reoutput) graphics.
-* Output as full-res JPEGs. P2P will do all the web-friendly processing.
+* Duplicating the artboard in a single AI file makes it easier to output (and reoutput) graphics. Especially galleries or items with repeated elements such as headers.
+* Output as *full-res JPEGs*. P2P will do all the web-friendly processing.
 * Keep them simple and free of most decorations and text. Two charts max.
-* These should be made with an eye toward embedding.
+* These should be made with an eye toward embedding. As little text as possible. Text trapped in images is bad, so let's keep it to a minimum
 * As long as you stick to the template, mobile design isn't a big deal. The template is made for this.
 
 ## HTML stories
@@ -23,15 +25,16 @@
 * Lots of text... text on images is bad.
 * diagrams: Numbers/Letters and lists
 * Sketch the desktop version, too (see what i did there?)
-* Use a proper text editor
+* Use a proper text editor ([TextWrangler][textwrangler], [TextMate][textmate], [Sublime Text][sublime text]). Do not use a rich-text editor like Microsoft Word, Text Edit or even Illustrator. This will cause you more problems than it solves. 
 * Download the startup doc
-+ It's a ZIP on S3.
-+ It's got a new css file.
-+ Always start with it, so upgrades/changes can be made.
-+ Practice semantic coding: codeacademy.org
-	- Tables != design tools. Use the zebra figure.
-	- New legend format
-+ Get it workin pretty good off your desktop, then put it in p2p. There will invariably be tweaks needed, though the template tries to minimize that The more you communicate about issues you have the better the template will become.
+  + It's a ZIP on S3.
+  + It's got a new css file.
+  + Always start with it, so upgrades/changes can be made.
+  + Practice semantic coding:
+    - [Code Academy][code academy] has some essential tutorials for HTML, CSS, Javascript and many other.
+    - Tables != design tools. Use the zebra figure.
+    - New legend format
+  + Get it workin pretty good off your desktop, then put it in p2p. There will invariably be tweaks needed, though the template tries to minimize that The more you communicate about issues you have the better the template will become.
 * Not every crayon ... we have a clicker, but is that needed. What about sortable/searhable tables? 
 
 ## So you've decided on a tarbell app. 
@@ -54,9 +57,14 @@
 
 ## Wrapping up:
 * Email to skedmaker: 
-	+ slug
-	+ status (Live, working but ready, working awaiting edits, needs relating, etc.)
-	+ Copy desk status (which editor has it?)
-	+ Any embargoes. These are your responsilibity.
-	+ A suggested tweet/shareline.
+  + slug
+  + status (Live, working but ready, working awaiting edits, needs relating, etc.)
+  + Copy desk status (which editor has it?)
+  + Any embargoes. These are your responsilibity.
+  + A suggested tweet/shareline.
 * Tweet it: Put it out there, then we can grab it and reshare.
+
+[sublime text](http://www.sublimetext.com/)
+[textmate](http://macromates.com/)
+[textwrangler](http://www.barebones.com/products/textwrangler/)
+[code academy](http://www.codecademy.com/)
