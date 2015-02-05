@@ -14,7 +14,7 @@
 * Use the .AI template. This is the 16x9 graphic.
 * Be mindful of the inner margin if making a gallery.
 * Duplicating the artboard in a single AI file makes it easier to output (and reoutput) graphics. Especially galleries or items with repeated elements such as headers.
-* Output as *full-res JPEGs*. P2P will do all the web-friendly processing.
+* Output as **full-res JPEGs**. P2P will do all the web-friendly processing.
 * Keep them simple and free of most decorations and text. Two charts max.
 * These should be made with an eye toward embedding. As little text as possible. Text trapped in images is bad, so let's keep it to a minimum
 * As long as you stick to the template, mobile design isn't a big deal. The template is made for this.
@@ -25,18 +25,18 @@
 * Sketch the desktop version, too. (See what i did there?)
 * Text on images is bad. It doesn't scale well and is unreadable to visually-impaired readers. As much text as possible — including headers, labels, etc. — should be in HTML.
 * Diagrams: In most cases, use numbers/letters with a corresponding ordered list.
-* Use a proper text editor ([textwrangler](http://www.barebones.com/products/textwrangler/), [textmate](http://macromates.com/), [sublime text](http://www.sublimetext.com/)). Do not use a rich-text editor like Microsoft Word, Text Edit or even Illustrator. This will cause you more problems than it solves. 
+* Use a proper text editor ([TextWrangler](http://www.barebones.com/products/textwrangler/), [TextMate](http://macromates.com/), [Sublime Text](http://www.sublimetext.com/)). Do not use a rich-text editor like Microsoft Word, Text Edit or even Illustrator. This will cause you more problems than it solves. 
 * [Download the startup template](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/graphics-html-story-template.zip)
   + It's a ZIP on S3.
   + Always start with it, so upgrades/changes can be made.
   + Practice semantic coding:
     - [Code Academy](http://www.codecademy.com/) has some essential tutorials for HTML, CSS, Javascript and many other.
     - Tables are not design tools. Use the zebra figure:
-      ```HTML
+      ```
       	<figure class='zebra'>
-		<figcaption>This is a list with zebra</figcaption>
+		<figcaption>This is the header for the list</figcaption>
 		<ul>
-			<li><p><strong>Lorem ipsum dolor</strong> sit amet, coli</p></li>
+			<li><p><strong>Optional header</strong> sit amet, coli</p></li>
 			<li><p>Lorem in st laborum.</p></li>
 			...
 		</ul>
@@ -77,11 +77,11 @@
 
 ## Wrapping up:
 * Email to skedmaker: 
-  + Slug
-  + Status (Live, working but ready, working awaiting edits, needs relating, etc.)
-  + Copy desk status (which editor has it?)
-  + Any embargoes. These are your responsilibity.
-  + A suggested tweet/shareline.
+  - Slug
+  - Status (Live, working but ready, working awaiting edits, needs relating, etc.)
+  - Copy desk status (which editor has it?)
+  - Any embargoes. These are your responsilibity.
+  - A suggested tweet/shareline.
 * Communicate with both Jonathon/Ryan and the *zzctc-ctweb* and *Ct-digital-editors* when assets are ready and if they will need to be flipped live.
 * Tweet it: Put it out there, then we can grab it and reshare.
 
