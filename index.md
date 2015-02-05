@@ -58,7 +58,7 @@
 ## Fill out p2p fields
 * Use your name, if you like, but include your own Twitter handle. _Have you set your P2P defaults?_
 * **Slug** should be SEO 
-  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/no-index-no-follow.png) 
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/slug.png) 
 
 * **Headline** should be sexy, and SEO if possible. 
   ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/headline.png)
