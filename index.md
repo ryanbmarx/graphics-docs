@@ -31,7 +31,21 @@
   + Always start with it, so upgrades/changes can be made.
   + Practice semantic coding:
     - [Code Academy](http://www.codecademy.com/) has some essential tutorials for HTML, CSS, Javascript and many other.
-    - Tables are not design tools. Use the zebra figure: _(example forthcoming)_
+    - Tables are not design tools. Use the zebra figure:
+      ```HTML
+      	<figure class='zebra'>
+		<figcaption>This is a list with zebra</figcaption>
+		<ul>
+			<li><p><strong>Lorem ipsum dolor</strong> sit amet, colit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+			<li><p>Lorem in ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitationprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitationpsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labs aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco labmollit anim id est laborum.</p></li>
+			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimfugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+		</ul>
+	</figure>
+      ```
     - New legend format: _(example forthcoming)_
   + Get it workin pretty good off your desktop, then put it in p2p. There will inevitbaly be tweaks needed, though the template tries to minimize that The more you communicate about issues you have the better the template will become.
 * We have some nice tools to use, but they might not be needed. You don't need to use every crayon in your box every time. We have a clicker, but is that needed. What about sortable/searchable tables? Is that functionality critical or at least transformative? 
