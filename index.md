@@ -1,14 +1,14 @@
 #How to start a project
 ## Get assignment, collect information, brainstorm until you have an idea
 ## Decide what format it should be
-* *Digital first:* This should be thought through before the print graphic. 
+* **Digital first:** This should be thought through before the print graphic. 
 * Your primary options
-  - _Static:_ Reserved for simple charts (1-2 per image). When a chart has little value standing alone, an embeddable static graphic is a good choice.
-  - _Graphics gallery:_ This can be very effective in situations where the charting is copious but not complex. Like static graphics, galleries are embeddable within stories. Polls are very successful in this format.
-  - _HTML story:_ If the idea is text-heavy, more complex than a simple chart and/or has interactive opportunities choose an HTML story.
-  - _Tarbell app:_ With greater capabilities within NGUX, tarbell projects have a very high bar. THe project should require tons of custom elemtns and/or have a long shelf life. All Tarbell apps also require P2P story link assets and a URL redirect.
+  - **Static:** Reserved for simple charts (1-2 per image). When a chart has little value standing alone, an embeddable static graphic is a good choice.
+  - **Graphics gallery:** This can be very effective in situations where the charting is copious but not complex. Like static graphics, galleries are embeddable within stories. Polls are very successful in this format.
+  - **HTML story:** If the idea is text-heavy, more complex than a simple chart and/or has interactive opportunities choose an HTML story.
+  - **Tarbell app:** With greater capabilities within NGUX, tarbell projects have a very high bar. THe project should require tons of custom elemtns and/or have a long shelf life. All Tarbell apps also require P2P story link assets and a URL redirect.
 * The skedmaker will make a best guess at a format on the daily graphics sked, but it's usually only a guess. Gather some data. Learn something. If you think an alternate format is better, then say so. Make sure there isn't a bigger plan.
-* *Digital first:* This should be thought through before the print graphic. 
+* **Digital first:** This should be thought through before the print graphic. 
 
 ## So you've decided to make static graphics.
 * Use the .AI template. This is the 16x9 graphic.
@@ -22,9 +22,9 @@
 ## HTML stories
 * If it doesn't work on mobile, then it doesn't work.
 * Sketch this out, even in really basic ways.
-* Lots of text... text on images is bad.
-* diagrams: Numbers/Letters and lists
-* Sketch the desktop version, too (see what i did there?)
+* Sketch the desktop version, too. (See what i did there?)
+* Text on images is bad. It doesn't scale well and is unreadable to visually-impaired readers. As much text as possible — including headers, labels, etc. — should be in HTML.
+* Diagrams: In most cases, use numbers/letters with a corresponding ordered list.
 * Use a proper text editor ([textwrangler](http://www.barebones.com/products/textwrangler/), [textmate](http://macromates.com/), [sublime text](http://www.sublimetext.com/)). Do not use a rich-text editor like Microsoft Word, Text Edit or even Illustrator. This will cause you more problems than it solves. 
 * [Download the startup template](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/graphics-html-story-template.zip)
   + It's a ZIP on S3.
@@ -36,13 +36,9 @@
       	<figure class='zebra'>
 		<figcaption>This is a list with zebra</figcaption>
 		<ul>
-			<li><p><strong>Lorem ipsum dolor</strong> sit amet, colit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
-			<li><p>Lorem in ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
-			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitationprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
-			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitationpsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labs aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
-			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco labmollit anim id est laborum.</p></li>
-			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimfugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
-			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+			<li><p><strong>Lorem ipsum dolor</strong> sit amet, coli</p></li>
+			<li><p>Lorem in st laborum.</p></li>
+			...
 		</ul>
 	</figure>
       ```
@@ -61,12 +57,23 @@
 
 ## Fill out p2p fields
 * Use your name, if you like, but include your own Twitter handle. _Have you set your P2P defaults?_
-* *Slug* should be SEO ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/no-index-no-follow.png)  
-* *Headline* should be sexy, and SEO if possible. ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/headline.png)
-* *SEO headline*, *SEO description* should be boring and front-loaded with search terms. ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/seo-headline.png)
-* *SEO keywords:* Up to ten, seperated by commas. One of them should be "onlinegraphic" ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/keywords.png)
-* *Thumbnail. Thumbnail. Thumbnail:* Should be representative of the graphic, but not necessarily a screengrab. p2p does soft crops on them, so any objecitonable material should be cropped in photoshop. ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/thumbnail.png)
-* Should be related/embedded to main story if at all possible. ![Scereenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/related.png)
+* **Slug** should be SEO 
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/no-index-no-follow.png) 
+
+* **Headline** should be sexy, and SEO if possible. 
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/headline.png)
+
+* **SEO headline**, **SEO description** should be boring and front-loaded with search terms. 
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/seo-headline.png)
+
+* **SEO keywords:** Up to ten, seperated by commas. One of them should be "onlinegraphic" 
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/keywords.png)
+
+* **Thumbnail. Thumbnail. Thumbnail:** Should be representative of the graphic, but not necessarily a screengrab. p2p does soft crops on them, so any objecitonable material should be cropped in photoshop. 
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/thumbnail.png)
+
+* Should be **related/embedded** to main story if at all possible. 
+  ![Scereenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/related.png)
 
 ## Wrapping up:
 * Email to skedmaker: 
