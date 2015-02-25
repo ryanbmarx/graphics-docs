@@ -1,1 +1,1 @@
-#Welcome to thge Tribune graphics documentation. Here's how to do things.
+#Welcome to thge Tribune graphics documentation. Look to the left to learn how to do things.
