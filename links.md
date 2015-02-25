@@ -49,7 +49,7 @@ You'll need these css libraries:
 	<link rel="stylesheet" type="text/css" href="//photodesk.chicagotribune.com.s3.amazonaws.com/Graphics/graphics-libraries-no-delete/tribune-datatables.css">
 Use our custom [tableizer][tableizer] to easily make the table. No need to use the `data-title` attribute as we would with [static tables](#static-table). 
 
-The interactive table has a completely different system for being responsive. If you find that your columns aren't sorting properly, or want them to sort in a way that's different than the cells content, you can add a `data-value` attribute, which takes priority when sorting. For instance, a column with dollar figures and a couple of "n/a" or other notes would sort in alphabetical order not numerical order (because of the text). Commas, percent signs and dollar signs do not disrupt sorting. Use the `data-value` attribute to give numerical values for the cell. For instance, this table will sort alphabetically
+The interactive table has a completely different system for being responsive. If you find that your columns aren't sorting properly, or want them to sort in a way that's different than the cells content, you can add a `data-order` attribute, which takes priority when sorting. For instance, a column with dollar figures and a couple of "n/a" or other notes would sort in alphabetical order not numerical order (because of the text). Commas, percent signs and dollar signs do not disrupt sorting. Use the `data-order` attribute to give numerical values for the cell. For instance, this table will sort alphabetically
 
 	<table id='' class=''>
 		<thead>
@@ -75,7 +75,7 @@ The interactive table has a completely different system for being responsive. If
 
 	</table>
 
-Using the `data-value` attribute, we can sort the table using the cells' dollar values (with -1 standing in for the n/a so it sorts last).
+Using the `data-order` attribute, we can sort the table using the cells' dollar values (with -1 standing in for the n/a so it sorts last).
 
 
 	<table id='' class=''>
@@ -88,15 +88,15 @@ Using the `data-value` attribute, we can sort the table using the cells' dollar 
 		<tbody>
 			<tr>
 				<td>John</td>
-				<td data-value=1000000>$1,000,000</td>
+				<td data-order=1000000>$1,000,000</td>
 			</tr>
 			<tr>
 				<td>Jon</td>
-				<td data-value=1300000>$1.3 million</td>
+				<td data-order=1300000>$1.3 million</td>
 			</tr>
 			<tr>
 				<td>Milton</td>
-				<td data-value=-1>n/a</td>
+				<td data-order=-1>n/a</td>
 			</tr>
 		</tbody>
 
@@ -129,13 +129,16 @@ We also have a variant that is well-suited for quick hit pairs, such as height: 
 
 
 ##Make a templated design
+This is another one of those things that you should work with Ryan on.
+
 	<script type='text/javascript' src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 ##Use the "clicker," a.k.a. makePanels.js
 You'll need these javascript libraries:
-	
+
+	<script type='text/javascript' src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src='http://photodesk.chicagotribune.com.s3.amazonaws.com/Graphics/graphics-libraries-no-delete/makePanels/jquery.makePanels.1.0.min.js'></script>
-You'll need these javascript libraries:
+You'll need this css libraries:
 	
 	<link rel="stylesheet" type="text/css" href="http://photodesk.chicagotribune.com.s3.amazonaws.com/Graphics/graphics-libraries-no-delete/makePanels/jquery.makePanels.1.0.min.css">
 Structure your HTML like this:
@@ -145,8 +148,9 @@ Structure your HTML like this:
 		...
 		</div>
 	</div>
+The overall wrapper needs a unique ID, as does each panel within it. The `data-btn-lbl` attribute for each panel is the text that will be used in the buttons or dropdown menu.
 
-And use this javascript. Generally, all your javascript need only be inside one `<script>` tag
+Use this javascript. Generally, all your javascript need only be inside one `<script>` tag
 
 	<script type="text/javascript">
 	$('#something-unique').makePanels({
@@ -157,7 +161,7 @@ And use this javascript. Generally, all your javascript need only be inside one 
 	});
 	</script>
 ##A standard timeline 
-We have the tarbell-based timeline (ex. [red light tickets](http://graphics.chicagotribune.com/news/local/red-light-timeline/)), but without a shelflife these are too laborius for the payoff. For most cases, especially those with just text and photos, use this format. It's built into the Tribune Graphics's base CSS and only requires a wrapper.
+We have the tarbell-based timeline (ex. [red light tickets](http://graphics.chicagotribune.com/news/local/red-light-timeline/)), but without a shelf-life these are too laborius for the payoff. For most cases, especially those with just text and photos, use this format. It's built into the Tribune Graphics's base CSS and only requires a wrapper.
 	
 	<section class='timeline'>
 		<div class='timeline-module '>
