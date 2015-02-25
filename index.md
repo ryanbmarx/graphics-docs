@@ -57,22 +57,22 @@
 
 ## Fill out p2p fields
 * Use your name, if you like, but include your own Twitter handle. _Have you set your P2P defaults?_
-* **Slug** should be SEO 
+* **Slug** should be SEO  
   ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/slug.png) 
 
-* **Headline** should be sexy, and SEO if possible. 
+* **Headline** should be sexy, and SEO if possible.  
   ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/headline.png)
 
-* **SEO headline**, **SEO description** should be boring and front-loaded with search terms. 
+* **SEO headline**, **SEO description** should be boring and front-loaded with search terms.  
   ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/seo-headline.png)
 
-* **SEO keywords:** Up to ten, seperated by commas. One of them should be "onlinegraphic" 
-  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/keywords.png)
+* **SEO keywords:** Up to ten, seperated by commas. One of them should be "onlinegraphic"  
+  ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/keyword.png)
 
-* **Thumbnail. Thumbnail. Thumbnail:** Should be representative of the graphic, but not necessarily a screengrab. p2p does soft crops on them, so any objecitonable material should be cropped in photoshop. 
+* **Thumbnail. Thumbnail. Thumbnail:** Should be representative of the graphic, but not necessarily a screengrab. p2p does soft crops on them, so any objecitonable material should be cropped in photoshop.  
   ![Screenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/thumbnail.png)
 
-* Should be **related/embedded** to main story if at all possible. 
+* Should be **related/embedded** to main story if at all possible.  
   ![Scereenshot of a P2P edit screen](http://photodesk.chicagotribune.com.s3.amazonaws.com/graphics-toolbox/documentation/related.png)
 
 ## Wrapping up:
